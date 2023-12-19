@@ -2,64 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZOMATO</title>   
+    <title>Zomato</title>
+    <link rel="shortcut icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+   
 </head>
-<body bgcolor="white"> <a href="http://127.0.0.1:5501/login.html">Log in</a><br><br> 
-     <a href="register.html">Sign up</a>
-   <table>
-    <img width="100%" height="500px" src="Zomato1.jpg"  alt="" >
-    <h1 align="center"><big><u>zomato</u></big></h1><br><br>
-    <h2 align ="center"><a href="https://www.zomato.com/"><button>search</button></a></h2>
-    <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="idli10.webp" width="380px" height="300px" alt="">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="roll15.jpg" width="380px" height="300px" alt="">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </td>
-        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <img src="Fish17.jpg" width="380px" height="300" alt="">
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </td>
-    </tr><br><br>
-    <tr>
-        <td><center><label for=""><h2>idli</h2></label></center></td>
-        <td><center><label for=""><h2>chicken roll</h2></label></center></td>
-        <td><center><label for=""><h2>fondant heart cake</h2></label></center></td>
-    </tr>
-    <tr>
-        <th><center><label for="">price 100</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><button>order now</button></a></center></th>
-        <th><center><label for="">price 200</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><button>order now</button></a></center></th>
-        <th><center><label for="">price 250</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><button>order now</button></a></center></th>
-    </tr>
-    <tr>
-        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img height="300px" width="380px"  src="mutton17.jpg" alt="">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </td>
-        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img height="300px" width="380px"  src="gifchicken.gif" alt="">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </td>
-        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img height="300px" width="380px"  src="Pizza18.jpg" alt="">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </td>
-    </tr><br><br>
-    <tr>
-        <td> <center><label for=""><h2>mutton</h2></label></center></td>
-       <td> <center><label for=""><h2>gifchicken</h2></label></td></center>
-       <td> <center><label for=""><h2>Pizza</h2></label></td></center>
-    </tr>
-    <tr>
-        <th><center><label for="">Price 300</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#"> <button>order now</button></center></th>
-        <th><center><label for="">Price 500</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#"> <button>order now</button></center></th>
-        <th><center><label for="">Price 299</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#"> <button>order now</button></center></th>
-    </tr><br><br>
-    <tr>
-   </table>
+<body>
+    <header>
+        <div class="nav">
+            <div>
+                <p>Get The App</p>
+            </div>
+            <ul class="nav-bar">
+                <li>Add Restaurant</li>
+                <li>Log in</li>
+                <li>Sign up</li>
+            </ul>
+        </div>
+        <div class="head">
+            <img class="logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+            <h3>Discover the best food & drinks in Delhi NCR</h3>
+            <div class="search">
+                <div class="search-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Ywca, 1, Ashoka Rd, Hanu</p>
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+                </div>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="">
+        </div>
+    </header>
+
+    <!-- Section 1 -->
+    <section class="section-1">
+        <div class="section-1-item">
+            <div class="items-details"><p>Order Food Online</p></div>
+           <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=3655"><img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt=""></a>
+        </div>
+        <div class="section-1-item">
+            <div class="items-details"><p>Dining Out</p></div>
+            <a href="https://www.zomato.com/bangalore/dine-out"><img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt=""></a>
+        </div>
+        <div class="section-1-item">
+            <div class="items-details"><p>Nightlife & Club</p></div>
+            <a href="https://www.zomato.com/bangalore/drinks-and-nightlife"><img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt=""></a>
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section-2">
+        <div class="section-2-heading">
+            <p>Popular localities in and around Bangalore</p>
+        </div>
+        <div class="section-2-container">
+            <div class="section-2-items">
+                <div class="section-2-item">
+                    <p class="item-head">BTM Place</p>
+                    <p class="item-subhead">88 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Silk Board Place</p>
+                    <p class="item-subhead">150 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Kormangalla Place</p>
+                    <p class="item-subhead">79 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">White Field Place</p>
+                    <p class="item-subhead">45 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">KR Puram Place</p>
+                    <p class="item-subhead">100 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Marathalli Place</p>
+                    <p class="item-subhead">200 Places</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section-3">
+        <div class="section-3-container">
+            <div class="section-3-img">
+                <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
+            </div>
+            <div class="section-3-content">
+                <h1>Get the Zomato App</h1>
+                <p>
+                    Download the app from
+                </p>
+                <div class="section-3-download">
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">    
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
